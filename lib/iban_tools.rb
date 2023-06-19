@@ -1,4 +1,5 @@
-# vim:ts=2:sw=2:et:
+# frozen_string_literal: true
+
 #--
 # Copyright (c) 2009 Iulian Dogariu
 #
@@ -22,5 +23,5 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #++
 
-require 'iban-tools/iban.rb'
-require 'iban-tools/iban_rules.rb'
+require 'iban_tools/iban'
+require 'iban_tools/iban_rules'
