@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'simplecov'
 require 'coveralls'
 
@@ -16,7 +18,7 @@ RSpec.configure do |config|
   config.filter_run :focus
 
   config.expect_with :rspec do |c|
-    c.syntax = [:should, :expect]
+    c.syntax = %i[should expect]
   end
 
   # Run specs in random order to surface order dependencies. If you find an

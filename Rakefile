@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # vim:ts=2:sw=2:et:
 
 require 'rubygems'
@@ -6,6 +8,5 @@ require 'spec/rake/spectask'
 
 Spec::Rake::SpecTask.new do |t|
   t.libs << 'lib'
-  t.spec_opts = ["--color" ]
+  t.spec_opts = ['--color']
 end
-
